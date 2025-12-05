@@ -2,6 +2,8 @@ import { Movie, MovieSchedule } from './api/movieSchedule';
 import { User } from './api/user';
 import { Booking } from './api/booking';
 import { Payment } from './api/payment';
+import { CINEMA_NAME } from './api/contants';
+console.log(`Welcome to ${CINEMA_NAME} Booking System`);
 
 // Mock Data
 const movie = new Movie("M001", "Avatar", "Sci-Fi");
