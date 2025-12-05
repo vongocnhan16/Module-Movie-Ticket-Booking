@@ -18,3 +18,8 @@ export class Payment {
 
   getStatus(): string { return this.status; }
 }
+
+export enum Currency {
+    VND = "VND",
+    USD = "USD"
+}
