@@ -12,12 +12,14 @@ export class Booking {
     private price: number
   ) {}
 
+  // Comment test
   confirmBooking(): void {
     this.status = "Confirmed";
     this.movieSchedule.reduceSeats(this.seats.length);
     console.log(`Booking ${this.bookingId} successful!`);
   }
 
+  // get method
   getPrice(): number { return this.price; }
   getStatus(): string { return this.status; }
   getBookingId(): string { return this.bookingId; }
