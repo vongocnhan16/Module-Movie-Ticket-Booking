@@ -15,7 +15,7 @@ export class Booking {
   confirmBooking(): void {
     this.status = "Confirmed";
     this.movieSchedule.reduceSeats(this.seats.length);
-    console.log(`Đặt vé ${this.bookingId} thành công!`);
+    console.log(`Booking ${this.bookingId} successful!`);
   }
 
   getPrice(): number { return this.price; }

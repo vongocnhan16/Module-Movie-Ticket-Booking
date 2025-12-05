@@ -14,7 +14,7 @@ export class MovieSchedule {
   ) {}
 
   displaySchedule(): void {
-    console.log(`[${this.scheduleId}] ${this.movie.getTitle()} - ${this.showTime} - Ghế: ${this.availableSeats}`);
+    console.log(`[${this.scheduleId}] ${this.movie.getTitle()} - ${this.showTime} - Seat: ${this.availableSeats}`);
   }
 
   getAvailableSeats(): number { return this.availableSeats; }

@@ -7,10 +7,10 @@ and process payments. It demonstrates core concepts of object-oriented programmi
 real-world application workflows.
 
 2. Modules
-- user.ts - Manages user information and profile data
-- movieSchedule.ts - Handles movie details and schedule information
-- booking.ts - Manages ticket bookings and seat selection
-- payment.ts - Process payment transactions for bookings
+- user.ts - Manages user information and profile data.
+- movieSchedule.ts - Handles movie details and schedule information.
+- booking.ts - Manages ticket bookings and seat selection.
+- payment.ts - Process payment transactions for bookings.
 
 3. Developer
 Vo Ngoc Nhan - ID: 28210202285
@@ -18,7 +18,7 @@ Vo Ngoc Nhan - ID: 28210202285
 4. Getting Started
 - Prerequisites: Node.js(v14 or higher); TypeScript; npm package
 - Install dependencise: npm install; npm install -g ts-Node
-- Running the system: ts-node program.ts
+- Running the system: npx ts-node program.ts
 - Expected Output:
 
 ========== MOVIE TICKET BOOKING SYSTEM ==========
