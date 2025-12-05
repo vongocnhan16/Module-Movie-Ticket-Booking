@@ -12,3 +12,8 @@ export class User {
   getUserId(): string { return this.userId; }
   getName(): string { return this.name; }
 }
+
+// TODO: Implement user login validation here
+export function validateUser(email: string): boolean {
+    return email.includes("@");
+}
